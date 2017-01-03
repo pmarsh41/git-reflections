@@ -1,0 +1,5 @@
+# What happens when you initialize a repository? Why do you need to do it?
+Initializing a repo creates a repo that tracks the medtadata for all files inside. 'git init' must be run to for version control within the folder.
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is comprised of files that are being committed. Multiple files can be in staging.
