@@ -1,5 +1,5 @@
 # What happens when you initialize a repository? Why do you need to do it?
-Initializing a repo creates a repo that tracks the medtadata for all files inside. 'git init' must be run to for version control within the folder.
+Initializing a repo creates a repo that tracks the metadata for all files inside. 'git init' must be run to for version control within the folder.
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is comprised of files that are being committed. Multiple files can be in staging.
@@ -13,3 +13,6 @@ Branches help when you have two different version of a file that you want to mak
 #How do the diagrams help you visualize the branch structure?
 
 The diagrams help me visualize the parent relationships of each commit and which ones might be unreachable. 
+
+#What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging branches together creates one branch with all of the reachable changes from each. Its represented in the diagram so the relationships are more apparent. 
